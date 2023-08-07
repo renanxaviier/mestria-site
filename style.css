@@ -5,7 +5,6 @@
   font-style: normal;
 }
 
-
 :root {
     /* widths for rows and containers
      */
@@ -844,7 +843,7 @@ blockquote cite {
   color: #2bcaae;
 }
 
-.highlight {
+.highlight { 
   background: #2bcaae;
   color: #fff;
   padding: 1px 5px;
@@ -856,24 +855,6 @@ blockquote cite {
 .highlight.dark { background: #333; }
 
 .colored { color: #2bcaae !important; }
-
-.main-logo {
-  height: var(--header-height);
-  display: flex;
-  align-items: center;
-  background-color: var(--dark-color);
-  padding: 10px;
-  margin-right: 0px;
-  transition: 0.5s all ease-out;
-}
-.main-logo a {
-  font-family: "robot-crush", sans-serif;
-  font-size: 3em;
-  color: #fff;
-  margin: 20px auto;
-  text-decoration: none;
-  transition: 0.5s all ease-out;
-}
 
 header {
   position: absolute;
@@ -1365,17 +1346,17 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 .main-slider .banner-content {
   position: absolute;
-  top: 0;
+  top: 22%;
   right: 0;
   left: 0;
-  width: 50%;
-  text-align: left;
+  width: 30%;
+  text-align: center;
   margin: 0 auto;
   margin-top: 300px;
 }
 .main-slider .banner-content h2.banner-title {
   font-family: var(--heading-font);
-  font-size: 3em;
+  font-size: 2,7em;
   font-weight: 900;
   color: #fff;
   text-transform: uppercase;
@@ -2049,5 +2030,14 @@ footer#footer {
   width: 68px;
   height: 68px;
   object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.logoheader {
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
